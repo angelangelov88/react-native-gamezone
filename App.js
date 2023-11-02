@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import tw from 'twrnc';
-import Home from './screens/Home';
+import Navigator from './routes/HomeStack';
 
 export default function App() {
     return (
-      <Home />
+      <Navigator />
     );
   }
 
